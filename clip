@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clip Max</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1a1a1a, #333);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      min-height: 100vh;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .logo {
+      margin-bottom: 20px;
+    }
+
+    .logo img {
+      width: 160px;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin: 20px 0 10px;
+    }
+
+    p.description {
+      max-width: 800px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .button {
+      background-color: #ff3c3c;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .button:hover {
+      background-color: #e83232;
+      transform: scale(1.05);
+    }
+
+    .socials {
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .social-link {
+      color: #ff3c3c;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .social-link:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="logo.jpg" alt="Clip Max Logo">
+  </div>
+
+  <h1>Welcome to Clip Max</h1>
+  <p class="description">
+    This is the first step and India’s first-ever dedicated clipping server — <strong>Clip Max</strong>.<br>
+    Whether you're a content creator, streamer, or gamer, we help capture your best moments in real-time. Our professional team of editors and clippers turn your gameplay or livestream highlights into viral-ready content.
+    <br><br>
+    Join our community of editors, earn while you clip, and grow your portfolio in the world of digital content. With easy onboarding and direct monetization options, Clip Max is designed to empower creators and provide opportunities to talented editors across India.
+    <br><br>
+    Let’s revolutionize the clipping industry, one highlight at a time.
+  </p>
+
+  <div class="buttons">
+    <a href="https://discord.gg/qf9WpAgUFS" class="button" target="_blank">Join Discord</a>
+    <a href="mailto:clipmax.exe@gmail.com" class="button">Business Email</a>
+  </div>
+
+  <div class="socials">
+    <a class="social-link" href="https://www.instagram.com/clipmax.exe?igsh=dXYxYzR1cnZyZTBu" target="_blank">Instagram: @clipmax.exe</a>
+    <a class="social-link" href="https://x.com/clipmaxexe?s=21" target="_blank">X: @clipmaxexe</a>
+  </div>
+</body>
+</html>
